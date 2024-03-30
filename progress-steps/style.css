@@ -1,0 +1,98 @@
+:root {
+  --line-border-fill: #3498db;
+  --line-border-empty: #383838;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 20%);
+  padding: 50px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 20%);
+}
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 40px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.steps-container::before {
+  content: "";
+  background-color: hsl(0, 0%, 50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #34dbca;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  transition: 0.4s ease;
+}
+
+/* Circle */
+
+.circle {
+  z-index: 5;
+  background-color: hsl(0, 0%, 50%);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid hsl(0, 0%, 50%);
+  transition: 0.4s ease;
+}
+
+.circle.active {
+  border-color: #34dbca;
+}
+
+/*Buttons*/
+.prev,
+.next {
+  background-color: hsl(0, 0%, 50%);
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  background-color: #34dbca;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  margin-left: 10px;
+  transition: all 0.1s ease-in;
+  &:hover {
+    background-color: hsl(0, 0%, 30%);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
