@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bg {
+    position: absolute;
+    background: url("https://images.unsplash.com/photo-1474861644511-0f2775ae97cc")
+        no-repeat center center/cover;
+    height: calc(100vh + 70px);
+    width: calc(100vw + 70px);
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+.text {
+    font-size: 3rem;
+}
