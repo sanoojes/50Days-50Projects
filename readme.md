@@ -1,7 +1,7 @@
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
-- [50 Projects in 50 Days](https://50projects50days.com/)
-- [Course Link](https://www.traversymedia.com/50-Projects-In-50-Days)
+-   [50 Projects in 50 Days](https://50projects50days.com/)
+-   [Course Link](https://www.traversymedia.com/50-Projects-In-50-Days)
 
 |  #  | Project                                                                                                              | Live Demo                                                                            |
 | :-: | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -12,7 +12,7 @@
 | 05  | [Blurry Loading](https://github.com/sanoojes/50Days-50Projects/tree/main/blurry-loading)                             | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/blurry-loading/)               |
 | 06  | [Scroll Animation](https://github.com/sanoojes/50Days-50Projects/tree/main/scroll-animation)                         | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/scroll-animation/)             |
 | 07  | [Split Landing Page](https://github.com/sanoojes/50Days-50Projects/tree/main/split-landing-page)                     | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/split-landing-page/)           |
-| 08  | [Form Wave](https://github.com/sanoojes/50Days-50Projects/tree/main/form-input-wave)                                 | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/form-wave/)                    |
+| 08  | [Form Wave](https://github.com/sanoojes/50Days-50Projects/tree/main/form-wave)                                       | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/form-wave/)                    |
 | 09  | [Sound Board](https://github.com/sanoojes/50Days-50Projects/tree/main/sound-board)                                   | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/sound-board/)                  |
 | 10  | [Dad Jokes](https://github.com/sanoojes/50Days-50Projects/tree/main/dad-jokes)                                       | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/dad-jokes/)                    |
 | 11  | [Event Keycodes](https://github.com/sanoojes/50Days-50Projects/tree/main/event-keycodes)                             | [Live Demo](https://sanooj.is-a.dev/50Days-50Projects/event-keycodes/)               |
